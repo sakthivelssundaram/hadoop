@@ -21,7 +21,7 @@ object GetSchema{
     conf.set("hbase.client.scanner.timeout.period", "600000")
     conf.set("hbase.rpc.timeout", "600000")
 
-    val tableName = "UAT:clz_v5_2019"
+    val tableName = ""
     val colFamily = "Main"
 
 
